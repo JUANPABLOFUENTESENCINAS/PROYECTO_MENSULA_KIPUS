@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 import google.generativeai as genai
+
 # 1. Configuración Estética de la Página
 st.set_page_config(page_title="Corbel-Audit AI", layout="wide")
 
