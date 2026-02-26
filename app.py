@@ -64,7 +64,7 @@ if st.button("🚀 Iniciar Auditoría Completa"):
             st.subheader("📋 Informe Técnico del Agente IA")
             with st.spinner("Redactando diagnóstico experto..."):
                 genai.configure(api_key=api_key)
-                llm = genai.GenerativeModel('gemini-3-flash-preview')
+                llm = genai.GenerativeModel('Gemini 3 Flash')
                 
                 # UTILIZANDO EL PROMPT DEL PUNTO 6
                 prompt = f"""
