@@ -27,7 +27,7 @@ modelo, scaler_x, scaler_y = load_assets()
 # 3. Interfaz de Usuario
 st.title("🏗️ Agente Inteligente de Auditoría Estructural:")
 st.title("Implementación de un Modelo Sustituto (MLP) y un LLM para la Evaluación de Capacidad de Carga en Ménsulas de Concreto Reforzado.")
-st.write("Arquitectura basada en dos fases, la primera utiliza una red neuronal entrenada con datos artificiales de 1000 muestras y la segunda fase utiliza un agente LLM")
+st.write("Agente inteligente de auditoría estructural para la evaluación de capacidad de carga (Pu) en ménsulas de concreto reforzado, integrando un modelo sustituto MLP con inteligencia artificial narrativa.")
 
 with st.sidebar:
     st.header("⚙️ Parámetros de Diseño")
